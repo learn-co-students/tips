@@ -1,6 +1,6 @@
 #Iterative Solution
 def fib(n)
-  fibo = [0, 1, 1]
+  fib = [0, 1, 1]
   return fib[n] if n < 3
   for num in (3..n)
     fib[num] = fib[num-1] + fib[num-2]
